@@ -10,7 +10,7 @@ tab1, tab2 = st.tabs(["PRTR Data", "Más información"])
 with tab1:
 
     components.iframe('https://lookerstudio.google.com/embed/reporting/9fcfa666-8498-4cf2-b7ac-f0fd14a2e762/page/TwupD',
-                      height=640, scrolling=True)
+                      height=900, scrolling=True)
 
 with tab2:
     st.title("Acerca del proyecto")
