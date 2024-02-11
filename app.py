@@ -20,7 +20,7 @@ with tab2:
     <br></br>
     Los datos utilizados para realizar este proyecto han sido obtenidos de la base de datos publicada en el <a href="https://planderecuperacion.gob.es/como-acceder-a-los-fondos/convocatorias" target="_blank">sitio</a> de información oficial del Gobierno.
     <br></br>
-    El dashboard será actualizado con regularidad: para una mejor visualización utilice la opción "Pantalla completa" (esquina inferior izquierda del dashboard).
+    El dashboard será actualizado con regularidad. Para una mejor visualización utilice la opción "Pantalla completa" (esquina inferior izquierda del dashboard).
     <br></br>
     <b>Para cualquier consulta, solicitud o sugerencia relativa a este proyecto, puede hacer llegar un correo electrónico a la siguiente dirección: <a href="mailto:prtrdata@gmail.com">prtrdata@gmail.com</a>.</b>
     </div>
