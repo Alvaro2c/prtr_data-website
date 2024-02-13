@@ -11,9 +11,9 @@ tab_gif = "https://s13.gifyu.com/images/SCoP2.gif"
 sea_gif = "https://s13.gifyu.com/images/SCoPK.gif"
 logo_python = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"
 logo_bigquery = "https://cdn.icon-icons.com/icons2/2699/PNG/512/google_bigquery_logo_icon_168150.png"
-logo_lookerstudio = "https://seeklogo.com/images/G/google-looker-logo-B27BD25E4E-seeklogo.com.png"
+logo_lookerstudio = "https://datawarehouse.io/wp-content/uploads/2020/04/looker-studio-1k.png"
 logo_airflow = "https://static-00.iconduck.com/assets.00/airflow-icon-2048x2048-ptyvisqh.png"
-logo_streamlit = "https://camo.githubusercontent.com/e7a254c6bc8cad40ef6316da7318414671df3cadb21320c929bd5492511db8ad/68747470733a2f2f696d6167652e706e676161612e636f6d2f3739382f353038343739382d6d6964646c652e706e67"
+logo_streamlit = "https://yt3.googleusercontent.com/ytc/AIf8zZSb7aWphJvsnl5ZQ7VaEfdultOKw3BR4h-fc8HhEg=s900-c-k-c0x00ffffff-no-rj"
 
 st.image(logo_path,width=400)
 
@@ -99,45 +99,58 @@ with tab2:
     </div>
     """, unsafe_allow_html=True)
 
-    st.image(logo_python, width=100)
-    st.markdown("""
-    <div style="text-align: justify;">
-    Python: para el scripting a cargo del scraping y la limpieza de los datos.
-    <br></br>
-    </div>
-    """, unsafe_allow_html=True)
+    col1, col2, col3, col4, col5 = st.columns(5)
 
-    st.image(logo_bigquery, width=100)
-    st.markdown("""
-    <div style="text-align: justify;">
-    BigQuery: para el almacenamiento de dichos datos en tablas SQL en la nuble (Google Cloud Platform).
-    <br></br>
-    </div>
-    """, unsafe_allow_html=True)
+    with col1:
+        st.image(logo_python, use_column_width=True)
+        st.markdown("""
+        <div style="text-align: center;">
+        <b>Python<b>\n
+        Scripting a cargo del scraping y la limpieza de los datos.
+        <br></br>
+        </div>
+        """, unsafe_allow_html=True)
 
-    st.image(logo_lookerstudio, width=100)
-    st.markdown("""
-    <div style="text-align: justify;">
-    Looker Studio: para la visualización en reportes, conectado directamente a los datos almacenados en BigQuery.
-    <br></br>
-    </div>
-    """, unsafe_allow_html=True)
+    with col2:
+        st.image(logo_bigquery, use_column_width=True)
+        st.markdown("""
+        <div style="text-align: center;">
+        <b>BigQuery<b>\n
+        Almacenamiento de dichos datos en tablas SQL en la nuble (Google Cloud Platform).
+        <br></br>
+        </div>
+        """, unsafe_allow_html=True)
 
-    st.image(logo_airflow, width=100)
-    st.markdown("""
-    <div style="text-align: justify;">
-    Airflow: para la orquestación y automatización de flujos de datos para las futuras actualizaciones.
-    <br></br>
-    </div>
-    """, unsafe_allow_html=True)
+    with col3:
+        st.image(logo_lookerstudio, use_column_width=True)
+        st.markdown("""
+        <div style="text-align: center;">
+        <b>Looker Studio<b>\n
+        Visualización en reportes, conectado directamente a los datos almacenados en BigQuery.
+        <br></br>
+        </div>
+        """, unsafe_allow_html=True)
 
-    st.image(logo_streamlit, width=100)
-    st.markdown("""
-    <div style="text-align: justify;">
-    Streamlit: para el frontend del sitio web.
-    <br></br>
-    </div>
-    """, unsafe_allow_html=True)
+
+    with col4:
+        st.image(logo_airflow, use_column_width=True)
+        st.markdown("""
+        <div style="text-align: center;">
+        <b>Airflow<b>\n
+        Orquestación y automatización de flujos de datos para las futuras actualizaciones.
+        <br></br>
+        </div>
+        """, unsafe_allow_html=True)
+
+    with col5:
+        st.image(logo_streamlit, use_column_width=True)
+        st.markdown("""
+        <div style="text-align: center;">
+        <b>Streamlit<b>\n
+        Frontend del sitio web.
+        <br></br>
+        </div>
+        """, unsafe_allow_html=True)
 
     st.title("Contacto")
     st.markdown("""
