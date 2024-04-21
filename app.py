@@ -106,7 +106,7 @@ with tab2:
         st.markdown("""
         <div style="text-align: center;">
         <b>Python<b>\n
-        Scripting a cargo del scraping y la limpieza de los datos.
+        Scripts de scraping y limpieza de datos.
         <br></br>
         </div>
         """, unsafe_allow_html=True)
@@ -116,7 +116,7 @@ with tab2:
         st.markdown("""
         <div style="text-align: center;">
         <b>BigQuery<b>\n
-        Almacenamiento de dichos datos en tablas SQL en la nuble (Google Cloud Platform).
+        Almacenamiento de datos en BigQuery (GCP).
         <br></br>
         </div>
         """, unsafe_allow_html=True)
@@ -126,7 +126,7 @@ with tab2:
         st.markdown("""
         <div style="text-align: center;">
         <b>Looker Studio<b>\n
-        Visualización en reportes, conectado directamente a los datos almacenados en BigQuery.
+        Visualización en reportes.
         <br></br>
         </div>
         """, unsafe_allow_html=True)
@@ -137,7 +137,7 @@ with tab2:
         st.markdown("""
         <div style="text-align: center;">
         <b>Airflow<b>\n
-        Orquestación y automatización de flujos de datos para las futuras actualizaciones.
+        Orquestación de flujos de datos.
         <br></br>
         </div>
         """, unsafe_allow_html=True)
